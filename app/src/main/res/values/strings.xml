@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Learning Kotlin</string>
+    <!-- IMC Calculator -->
+    <string name="imc_calc_male">Hombre</string>
+    <string name="imc_calc_female">Mujer</string>
+    <string name="imc_calc_gender">Género</string>
+    <string name="imc_calc_height">Altura</string>
+    <string name="imc_calc_weight">Peso</string>
+    <string name="imc_calc_age">Edad</string>
+    <string name="imc_calc_btn_calculate_text">Calcular</string>
+    <string name="imc_calc_result">Resultado</string>
+    <string name="imc_calc_default_gender">Masculino</string>
+    <string name="imc_calc_default_height">0 cm</string>
+    <string name="imc_calc_default_weight">90 kg</string>
+    <string name="imc_calc_default_age">1 año</string>
+    <string name="img_description_content_female_icon">Female icon</string>
+    <string name="img_description_content_male_icon">Male icon</string>
+    <string name="imc_calc_age_text">%1$s año(s)</string>
+    <string name="imc_calc_weight_text">%1$s Kg</string>
+    <!-- IMC Result -->
+    <string name="imc_calc_result_act_data">Datos</string>
+    <string name="imc_calc_result_act_title">Resultado</string>
+    <string name="imc_calc_btn_recalculate_text">Recalcular</string>
+    <string name="imc_calc_imc_low_weight">Peso Bajo</string>
+    <string name="imc_calc_imc_desc_low_weight">Estás por debajo del peso óptimo.</string>
+    <string name="imc_calc_imc_normal_weight">Peso Normal</string>
+    <string name="imc_calc_imc_desc_normal_weight">Estás en tu peso óptimo.</string>
+    <string name="imc_calc_imc_overweight_weight">Sobrepeso</string>
+    <string name="imc_calc_imc_desc_overweight_weight">Estás por encima de tu peso óptimo.</string>
+    <string name="imc_calc_imc_obesity_weight">Obesidad</string>
+    <string name="imc_calc_imc_desc_obesity_weight">Tienes obesidad, tienes que tomar medidas.</string>
+
+    <!--TodoApp-->
+    <string name="todo_app_title">Bienvenido, Leunknown</string>
+    <string name="todo_app_categories">Categorías</string>
+    <string name="todo_app_tasks">Tareas</string>
+    <string name="todo_app_hint_et_description_task">Programar un cohete...</string>
+    <string name="todo_app_dialog_business_category">Negocios</string>
+    <string name="todo_app_dialog_other_category">Otros</string>
+    <string name="todo_app_dialog_personal_category">Personal</string>
+    <string name="todo_app_dialog_add_task_button_text">Crear tarea</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/dialogTodoAddTask"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/todo_app_background"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="35dp">
+    <EditText
+        android:id="@+id/etTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/todo_app_hint_et_description_task"
+        android:textColorHint="@color/todo_app_subtitle_text"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <RadioGroup
+        android:id="@+id/rgTaskCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnCreateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/todo_app_accent"
+        android:textSize="15sp"
+        android:text="@string/todo_app_dialog_add_task_button_text"/>
+</LinearLayout>

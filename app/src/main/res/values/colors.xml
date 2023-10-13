@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_500_transparent">#2D1760</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background">#252525</color>
+    <!-- Calculadora de IMC -->
+    <color name="imc_calc_background">#0E0B20</color>
+    <color name="imc_calc_card_background">#1D1E33</color>
+    <color name="imc_calc_card_background_selected">#111328</color>
+    <color name="imc_calc_card_foreground">#ffffff</color>
+    <color name="imc_calc_card_label">#676876</color>
+    <color name="imc_calc_active">#FF6200EE</color>
+    <color name="imc_calc_range_slider_inactive">#2D1760</color>
+    <color name="imc_calc_dangerous_result">#D83131</color>
+    <color name="imc_calc_normal_weight_result">#48E44B</color>
+    <color name="imc_calc_overweight_weight_result">#F8F83A</color>
+    <!-- Todo App -->
+    <color name="todo_app_background_card">#FF081A4A</color>
+    <color name="todo_app_background_card_selected">#787878</color>
+    <color name="todo_app_background">#FF2D4993</color>
+    <color name="todo_app_subtitle_text">#A7BAFF</color>
+    <color name="todo_app_accent">#E91E63</color>
+    <color name="todo_app_business_category">#FF9800</color>
+    <color name="todo_app_personal_category">#00BCD4</color>
+    <color name="todo_app_other_category">#4CAF50</color>
+</resources>
