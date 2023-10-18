@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Learning Kotlin</string>
+    <!-- Main App -->
+    <string name="app_title">Aplicaciones</string>
+    <string name="btn_settings_app">Configuración</string>
+    <string name="btn_superhero_app">Superhero app</string>
+    <string name="btn_todo_app">TODO APP</string>
+    <string name="btn_imc_calc_app">Calculadora de IMC</string>
+    <string name="btn_counter_app">Contador</string>
+    <!-- Counter App -->
+    <string name="counter_app_title">CONTADOR</string>
     <!-- IMC Calculator -->
     <string name="imc_calc_male">Hombre</string>
     <string name="imc_calc_female">Mujer</string>
@@ -29,8 +38,7 @@
     <string name="imc_calc_imc_desc_overweight_weight">Estás por encima de tu peso óptimo.</string>
     <string name="imc_calc_imc_obesity_weight">Obesidad</string>
     <string name="imc_calc_imc_desc_obesity_weight">Tienes obesidad, tienes que tomar medidas.</string>
-
-    <!--TodoApp-->
+    <!-- Todo App -->
     <string name="todo_app_title">Bienvenido, Leunknown</string>
     <string name="todo_app_categories">Categorías</string>
     <string name="todo_app_tasks">Tareas</string>
@@ -39,4 +47,18 @@
     <string name="todo_app_dialog_other_category">Otros</string>
     <string name="todo_app_dialog_personal_category">Personal</string>
     <string name="todo_app_dialog_add_task_button_text">Crear tarea</string>
+    <!--    Todo App | Power stats -->
+    <string name="superhero_app_power_stat_intelligence_label">Inteligencia</string>
+    <string name="superhero_app_power_stat_strength_label">Fuerza</string>
+    <string name="superhero_app_power_stat_speed_label">Velocidad</string>
+    <string name="superhero_app_power_stat_durability_label">Dureza</string>
+    <string name="superhero_app_power_stat_power_label">Poder</string>
+    <string name="superhero_app_power_stat_combat_label">Combate</string>
+    <!--    Settings App | Power stats -->
+    <string name="settings_app_dark_mode_option_title">Modo oscuro</string>
+    <string name="settings_app_dark_mode_option_description">Activar el modo oscuro para un cambio visual</string>
+    <string name="settings_app_bluetooth_option_title">Activar bluetooth</string>
+    <string name="settings_app_bluetooth_option_description">Conecta periféricos sin cables</string>
+    <string name="settings_app_volume_option_title">Volumen</string>
+    <string name="settings_app_phone_vibration_option_title">Activar vibración para llamadas</string>
 </resources>

@@ -4,25 +4,29 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.example.learningkotlin.databinding.ActivityCounterBinding
+import com.example.learningkotlin.databinding.ActivityMainBinding
 
 class CounterActivity : AppCompatActivity() {
     private var value = 0
+    private lateinit var binding: ActivityCounterBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_counter)
+        binding = ActivityCounterBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         initButtons()
     }
     private fun initButtons() {
-        findViewById<Button>(R.id.btnIncrement).setOnClickListener {
+        binding.btnIncrement.setOnClickListener {
             value++;
             updateTvValue();
         };
-        findViewById<Button>(R.id.btnDecrement).setOnClickListener {
+        binding.btnDecrement.setOnClickListener {
             value--;
             updateTvValue();
         };
     }
     private fun updateTvValue() {
-        findViewById<TextView>(R.id.tvValue).text = value.toString();
+        binding.tvValue.text = value.toString();
     }
 }

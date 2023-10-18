@@ -10,6 +10,9 @@ import com.example.learningkotlin.imccalculator.domain.ImcData
 import com.example.learningkotlin.imccalculator.utils.ImcCalculatorHelpers
 
 class ImcCalculatorResultActivity : AppCompatActivity() {
+    companion object {
+        const val IMC_DATA_EXTRA_KEY: String = "IMC_DATA"
+    }
     private lateinit var data: ImcData
     private lateinit var tvImcValue: TextView
     private lateinit var tvImc: TextView
@@ -27,7 +30,7 @@ class ImcCalculatorResultActivity : AppCompatActivity() {
         displayResult(imc)
     }
     private fun fillData() {
-        data = intent.getSerializableExtra(ImcCalculatorActivity.IMC_DATA_EXTRA_KEY) as ImcData
+        data = intent.getSerializableExtra(IMC_DATA_EXTRA_KEY) as ImcData
     }
     private fun displayData() {
         findViewById<TextView>(R.id.tvGender).text =  ImcCalculatorHelpers.getGenderText(this, data.gender)

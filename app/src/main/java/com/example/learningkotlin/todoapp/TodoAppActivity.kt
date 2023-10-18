@@ -27,10 +27,8 @@ class TodoAppActivity : AppCompatActivity() {
         setup()
     }
     private fun setup() {
-        taskCategoryFilter = TaskCategoryFilter {
-            taskAdapter.tasks =
-                if (taskCategoryFilter.isEmpty()) ArrayList(tasks)
-                else tasks.filter { taskCategoryFilter.has(it.category.id) }
+        taskCategoryFilter = TaskCategoryFilter(tasks) {
+            applyTaskCategoryFilter()
             updateTaskCategoryAdapter()
             updateTaskAdapter()
         }
@@ -65,8 +63,12 @@ class TodoAppActivity : AppCompatActivity() {
     private fun updateTaskAdapter() {
         taskAdapter.notifyDataSetChanged()
     }
+    private fun applyTaskCategoryFilter() {
+        taskAdapter.tasks = taskCategoryFilter.filter()
+    }
     fun addTaskToList(task: Task) {
         tasks.add(task)
+        applyTaskCategoryFilter()
         updateTaskAdapter()
     }
 }
