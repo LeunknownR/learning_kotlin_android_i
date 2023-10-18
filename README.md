@@ -38,23 +38,23 @@ Estas aplicaciones fueron desarrolladas con base en ideas propuestas por el curs
 
 Aplicación que muestra un número en pantalla que se puede incrementar o decrementar de 1 en 1 con 2 botones.
 
-<div style="display: flex; justify-content: center; gap: 15px">
-    <img src="./screenshoots/counter_light.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/counter_dark.jpg" style="width: 30%;"/>
+<div style="display: flex; justify-content: center; gap: 15px" align="center">
+    <img src="./screenshoots/counter_light.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/counter_dark.jpg" style="width: 25%;"/>
 </div>
 
 ### IMC 🚑
 
 Aplicación que calcula el índice de masa corporal (IMC).
 
-<section style="display: flex; flex-direction: column; gap: 15px">
+<section style="display: flex; flex-direction: column; gap: 15px" align="center">
     <div style="display: flex; justify-content: center; gap: 15px">
-        <img src="./screenshoots/imc_light.jpg" style="width: 30%;"/>
-        <img src="./screenshoots/imc_results_light.jpg" style="width: 30%;"/>
+        <img src="./screenshoots/imc_light.jpg" style="width: 25%;"/>
+        <img src="./screenshoots/imc_results_light.jpg" style="width: 25%;"/>
     </div>
     <div style="display: flex; justify-content: center; gap: 15px">
-        <img src="./screenshoots/imc_dark.jpg" style="width: 30%;"/>
-        <img src="./screenshoots/imc_results_dark.jpg" style="width: 30%;"/>
+        <img src="./screenshoots/imc_dark.jpg" style="width: 25%;"/>
+        <img src="./screenshoots/imc_results_dark.jpg" style="width: 25%;"/>
     </div>
 </section>
 
@@ -62,25 +62,25 @@ Aplicación que calcula el índice de masa corporal (IMC).
 
 Aplicación para crear, visualizar y chequear tareas por hacer por categoría.
 
-<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap">
-    <img src="./screenshoots/todo_app.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/todo_app_filter.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/todo_app_open_dialog_to_create_task.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/todo_app_open_filled_dialog_to_create_task.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/todo_app_task_created.jpg" style="width: 30%;"/>
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap" align="center">
+    <img src="./screenshoots/todo_app.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/todo_app_filter.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/todo_app_open_dialog_to_create_task.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/todo_app_open_filled_dialog_to_create_task.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/todo_app_task_created.jpg" style="width: 25%;"/>
 </div>
 
 ### Superhero App 🐉
 
 Aplicación de búsqueda de superhéroes que consume una API libre en internet.
 
-<section style="display: flex; flex-direction: column; gap: 15px">
+<section style="display: flex; flex-direction: column; gap: 15px" align="center">
     <div style="display: flex; justify-content: center; gap: 15px">
-        <img src="./screenshoots/superhero_app_light.jpg" style="width: 30%;"/>
+        <img src="./screenshoots/superhero_app_light.jpg" style="width: 25%;"/>
     </div>
     <div style="display: flex; justify-content: center; gap: 15px">
-        <img src="./screenshoots/superhero_app_dark.jpg" style="width: 30%;"/>
-        <img src="./screenshoots/superhero_app_superhero_info_dark.jpg" style="width: 30%;"/>
+        <img src="./screenshoots/superhero_app_dark.jpg" style="width: 25%;"/>
+        <img src="./screenshoots/superhero_app_superhero_info_dark.jpg" style="width: 25%;"/>
     </div>
 </section>
 
@@ -88,7 +88,7 @@ Aplicación de búsqueda de superhéroes que consume una API libre en internet.
 
 Aplicación de lista de opciones de configuración que puede persisitir (solo el **modo oscuro produce efectos**).
 
-<section style="display: flex; justify-content: center; gap: 15px">
-    <img src="./screenshoots/settings_light.jpg" style="width: 30%;"/>
-    <img src="./screenshoots/settings_dark.jpg" style="width: 30%;"/>
+<section style="display: flex; justify-content: center; gap: 15px" align="center">
+    <img src="./screenshoots/settings_light.jpg" style="width: 25%;"/>
+    <img src="./screenshoots/settings_dark.jpg" style="width: 25%;"/>
 </section>
