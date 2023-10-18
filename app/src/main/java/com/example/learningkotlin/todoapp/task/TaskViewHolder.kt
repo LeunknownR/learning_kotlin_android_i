@@ -37,7 +37,7 @@ class TaskViewHolder: RecyclerView.ViewHolder {
     }
     private fun setupCbTaskDone() {
         cbTaskDone.isChecked = task.done
-        cbTaskDone.buttonTintList = ColorStateList.valueOf(ContextCompat.getColor(cbTaskDone.context, task.category.color))
+        cbTaskDone.buttonTintList = ColorStateList.valueOf(ContextCompat.getColor(cbTaskDone.context, task.category!!.color))
         cbTaskDone.setOnCheckedChangeListener { _, isChecked ->
             task.done = isChecked
             setStyleTextOfTaskDescriptionByTaskDone()

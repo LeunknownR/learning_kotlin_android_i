@@ -7,52 +7,51 @@
     tools:context=".MainActivity"
     android:background="@color/main_background"
     android:padding="15dp">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/app_title"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/app_title"
+        android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/lyButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:id="@+id/lyButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
-        <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="monospace"
-            android:text="EJERCICIOS"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/lyButtons"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginBottom="10dp"/>
-        <LinearLayout
-            android:id="@+id/lyButtons"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@id/tvTitle"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:orientation="vertical">
-            <Button
-                android:id="@+id/btnCounter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Contador"/>
-            <Button
-                android:id="@+id/btnImcCalculator"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Calculador de IMC"/>
-            <Button
-                android:id="@+id/btnTodoApp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TODO APP"/>
-        </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnCounter"
+            style="@style/AppButton"
+            android:text="@string/btn_counter_app"/>
+        <Button
+            android:id="@+id/btnImcCalculator"
+            style="@style/AppButton"
+            android:text="@string/btn_imc_calc_app"/>
+        <Button
+            android:id="@+id/btnTodoApp"
+            style="@style/AppButton"
+            android:text="@string/btn_todo_app"/>
+        <Button
+            android:id="@+id/btnSuperHeroApp"
+            style="@style/AppButton"
+            android:text="@string/btn_superhero_app" />
+        <Button
+            android:id="@+id/btnSettings"
+            style="@style/AppButton"
+            android:text="@string/btn_settings_app" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

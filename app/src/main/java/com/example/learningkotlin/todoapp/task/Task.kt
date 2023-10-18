@@ -14,11 +14,16 @@ class Task {
     }
     constructor() {
         id = ++TASK_IDENTITY
+        description = null
+        category = null
         done = false
     }
     var id: Int
         private set
-    lateinit var description: String
-    lateinit var category: TaskCategory
+    var description: String?
+    var category: TaskCategory?
     var done: Boolean
+    fun isValid(): Boolean {
+        return description.orEmpty().isNotEmpty() && category != null
+    }
 }

@@ -8,16 +8,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="main_background">#FFFFFF</color>
-    <color name="app_title">#151515</color>
+    <color name="main_background">#151515</color>
+    <color name="app_title">#FFFFFF</color>
     <!-- Calculadora de IMC -->
-    <color name="imc_calc_background">@color/main_background</color>
-    <color name="imc_calc_card_background">#ACAEE8</color>
-    <color name="imc_calc_card_background_selected">#D9DAFA</color>
-    <color name="imc_calc_card_result_background">#434572</color>
-    <color name="imc_calc_card_result_text">#ACAEE8</color>
-    <color name="imc_calc_card_label">#555667</color>
-    <color name="imc_calc_primary_color">#5A5D91</color>
+    <color name="imc_calc_background">#0E0B20</color>
+    <color name="imc_calc_card_background">#1D1E33</color>
+    <color name="imc_calc_card_background_selected">#111328</color>
+    <color name="imc_calc_card_result_background">#1D1E33</color>
+    <color name="imc_calc_card_result_text">#FFFFFF</color>
+    <color name="imc_calc_card_label">#676876</color>
+    <color name="imc_calc_primary_color">#FFFFFF</color>
     <color name="imc_calc_active">#FF6200EE</color>
     <color name="imc_calc_range_slider_inactive">#2D1760</color>
     <color name="imc_calc_dangerous_result">#D83131</color>
@@ -33,7 +33,7 @@
     <color name="todo_app_personal_category">#00BCD4</color>
     <color name="todo_app_other_category">#4CAF50</color>
     <!-- Superhero App -->
-    <color name="superhero_app_search_view_color">#555555</color>
+    <color name="superhero_app_search_view_color">#AAAAAA</color>
     <color name="superhero_app_item_superhero_name">#73673AB7</color>
     <color name="superhero_app_publisher_label">#CCBBE3</color>
     <color name="superhero_app_power_stat_intelligence">#00ff00</color>
@@ -44,5 +44,5 @@
     <color name="superhero_app_power_stat_combat">#673AB7</color>
     <color name="superhero_app_power_stat_label">#A77BE4</color>
     <!-- Settings App -->
-    <color name="settings_app_primary">#555555</color>
+    <color name="settings_app_primary">#AAAAAA</color>
 </resources>

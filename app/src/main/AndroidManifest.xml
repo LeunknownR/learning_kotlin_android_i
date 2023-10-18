@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.learningkotlin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,9 +16,18 @@
         android:theme="@style/Theme.LearningKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".todoapp.TodoAppActivity"
-            android:theme="@style/Theme.TodoApp"
+            android:name=".settings.SettingsAppActivity"
             android:exported="false" />
+        <activity
+            android:name=".superheroapp.SuperheroDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".superheroapp.SuperheroAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".todoapp.TodoAppActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TodoApp" />
         <activity
             android:name=".imccalculator.ImcCalculatorResultActivity"
             android:exported="false" />

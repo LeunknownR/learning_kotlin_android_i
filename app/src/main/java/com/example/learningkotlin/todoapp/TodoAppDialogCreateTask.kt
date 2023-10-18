@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.example.learningkotlin.R
 import com.example.learningkotlin.todoapp.task.Task
@@ -63,8 +64,15 @@ class TodoAppDialogCreateTask {
                 addTask()
             }
     }
+    private fun displayErrorMessage() {
+        Toast.makeText(this.context, "Existen datos inválidos o incompletos", Toast.LENGTH_SHORT).show()
+    }
     private fun addTask() {
         newTask.description = etTaskDescription.text.toString()
+        if (!newTask.isValid()) {
+            displayErrorMessage()
+            return
+        }
         context.addTaskToList(newTask)
         hide()
         resetForm()

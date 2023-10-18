@@ -23,10 +23,6 @@ class ImcCalculatorActivity : AppCompatActivity() {
     private lateinit var tvAge: TextView
     private lateinit var data: ImcData
 
-    companion object {
-        val IMC_DATA_EXTRA_KEY: String = "IMC_DATA"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_imc_calculator)
@@ -132,14 +128,17 @@ class ImcCalculatorActivity : AppCompatActivity() {
         tvAge.text = getString(R.string.imc_calc_age_text, data.age.toString())
     }
     //</editor-fold>
+    private fun displayErrorMessage() {
+        Toast.makeText(this, "Existen datos inválidos o incompletos", Toast.LENGTH_SHORT).show()
+    }
     private fun initBtnCalculate() {
         findViewById<Button>(R.id.btnRecalculate).setOnClickListener {
             if (!this.data.isValid()) {
-                Toast.makeText(this, "Debes completar todos los datos", Toast.LENGTH_SHORT).show()
+                displayErrorMessage()
                 return@setOnClickListener
             }
             intent = Intent(this, ImcCalculatorResultActivity::class.java)
-            intent.putExtra(IMC_DATA_EXTRA_KEY, data)
+            intent.putExtra(ImcCalculatorResultActivity.IMC_DATA_EXTRA_KEY, data)
             startActivity(intent)
         }
     }
