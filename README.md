@@ -6,6 +6,8 @@ Estas aplicaciones fueron desarrolladas con base en ideas propuestas por el curs
 -   [Curso de Kotlin desde 0 - Parte 1](https://www.youtube.com/watch?v=vJapzH_46a8)
 -   [Curso de Kotlin desde 0 - Parte 2](https://www.youtube.com/watch?v=ndqIqh6joGA)
 
+[Ir a mi repositorio **Aprendiendo Kotlin - Parte II**](https://github.com/LeunknownR/learning_kotlin_android_ii)
+
 ## Herramientas utilizadas 🛠️
 
 -   Kotlin.
